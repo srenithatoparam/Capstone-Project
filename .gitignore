@@ -1,0 +1,9 @@
+# Airflow logs
+airflow/logs/
+
+# Large processed data
+data/processed/
+data/gold_exports/
+
+# Power BI file (optional – screenshots are enough)
+powerbi/*.pbix
