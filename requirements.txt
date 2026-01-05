@@ -1,0 +1,30 @@
+# Core Python Libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Apache Spark (Databricks runtime already includes Spark,
+# but this is useful for local validation or reference)
+pyspark==3.5.1
+
+# Apache Airflow (workflow orchestration)
+apache-airflow==2.9.3
+apache-airflow-providers-standard==1.1.0
+
+# Logging & Utilities (built-in, listed for clarity)
+# logging
+# os
+# datetime
+
+# File formats
+pyarrow==16.1.0
+
+# Visualization (used externally via Power BI)
+# Power BI Desktop (installed separately)
+
+# Development & Notebooks
+jupyter==1.0.0
+ipykernel==6.29.5
+vscode==1.88.2
+
+# Databricks CLI
+databricks-cli==0.17.6
