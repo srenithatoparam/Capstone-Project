@@ -104,6 +104,77 @@ Refer to the project repository structure for:
 
 ---
 
+## Dashboards & Business Insights (Power BI)
+
+Four interactive **Power BI dashboards** were built using the Gold layer data to provide clear, actionable insights for business stakeholders and management.
+
+---
+
+### 🔹 Dashboard 1: Sales & Profit Overview
+**Purpose:** Track overall business performance at a high level.
+
+**Key Metrics & Visuals:**
+- Total Sales, Total Profit, Profit Margin (KPI Cards)
+- Monthly Sales & Profit Trends
+- Category-wise Sales Performance
+- Region-wise Sales Distribution
+
+**Business Impact:**
+- Helps management understand overall revenue and profitability trends
+- Identifies top-performing categories and regions
+
+---
+
+### 🔹 Dashboard 2: Category & Sub-Category Performance
+**Purpose:** Analyze product-level contribution to sales and profit.
+
+**Key Metrics & Visuals:**
+- Sales and Profit by Category
+- Sub-Category-wise Profitability Analysis
+- Contribution of each sub-category to total revenue
+
+**Business Impact:**
+- Identifies high-performing and underperforming product segments
+- Supports product portfolio optimization decisions
+
+---
+
+### 🔹 Dashboard 3: Regional Performance Analysis
+**Purpose:** Compare performance across different regions.
+
+**Key Metrics & Visuals:**
+- Sales by Region
+- Profit by Region
+- Regional Contribution to Total Sales
+
+**Business Impact:**
+- Highlights strong and weak regional markets
+- Helps in region-specific sales and marketing strategy planning
+
+---
+
+### 🔹 Dashboard 4: Risk & Loss Analysis
+**Purpose:** Detect profitability risks and loss drivers.
+
+**Key Metrics & Visuals:**
+- Loss-making Products and Sub-Categories
+- Discount vs Profit Impact Analysis
+- High-discount, Low-profit Identification
+
+**Business Impact:**
+- Identifies products causing revenue leakage
+- Supports better discounting and pricing strategies
+
+---
+
+### Dashboard Validation
+- All dashboard KPIs were cross-verified with **Databricks Spark aggregations**
+- Ensured **data accuracy and consistency** across the analytics pipeline
+
+📂 Power BI dashboards and screenshots are available in the `powerbi/` directory.
+
+---
+
 ## Key Business Insights
 
 - Technology category drives highest sales
